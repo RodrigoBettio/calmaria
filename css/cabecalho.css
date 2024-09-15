@@ -12,8 +12,12 @@
   }
 
   .cabecalho_nav_logo {
-    width: 172px;
-    height: 56px;
+    width: 270px;
+    height: 88px;
+  }
+
+  .cabecalho_nav_lista{
+    font-size: 22px;
   }
 
   .cabecalho .cabecalho_nav .cabecalho_nav_linha {

@@ -1,0 +1,51 @@
+.container {
+    background: var(--gradiente);
+}
+
+.primeiro_container {
+    padding: 0 220px 80px 220px;
+    text-align: start;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+
+.primeiro_container_texto{
+    width: 480px;
+}
+.primeiro_container_texto h1 {
+    font-family: Krona One;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    padding-bottom: 32px;
+}
+
+.primeiro_container_botao {
+    width: 280px;
+    height: 66px;
+    color: white;
+    border: none;
+    border-radius: 66px;
+    background: var(--azul-escuro);
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border: 2px solid black;
+    transition: transform 0.3s ease, box-shadow 0.4s ease;
+}
+
+.primeiro_container_botao:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.1);
+}
+
+.primeiro_container_imagem{
+    width: 474px;
+    height: 558px;
+    align-self: center;
+}
