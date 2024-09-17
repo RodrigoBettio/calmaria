@@ -40,7 +40,7 @@
   line-height: 150%;
 }
 
-.cabecalho .cabecalho_nav .cabecalho_nav_lista a:hover{
-  font-weight: 600; 
+.cabecalho .cabecalho_nav .cabecalho_nav_lista a:hover {
+  font-weight: 600;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
