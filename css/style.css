@@ -1,7 +1,7 @@
 :root {
     --fonte: "Montserrat", 'Krona One', 'Open Sans', sans-serif;
     --gradiente: linear-gradient(180deg, #E8F5C8 0%, rgb(255, 255, 255) 80%);
-    --gradiente-card: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+    --gradiente-card: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(12, 49, 233, 0.1) 100%);
     --verde-claro: #E8F5C8;
     --azul-escuro: #b6bfde;
     --lilas-claro: #85A0FF;
@@ -14,6 +14,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 body {

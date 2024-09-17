@@ -1,36 +1,38 @@
 .cards_container {
+    background: var(--gradiente);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 80px 16px;
-    row-gap: 24px;
+    column-gap: 24px;
   }
   
   .card_cards_container {
     background: var(--gradiente-card);
-    max-width: 648px;
-    height: auto;
+    max-width: 385px;
+    height: 525;
     padding: 24px 16px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
+    row-gap: 20px;
     border-radius: 32px;
-    border: 1px solid #fff;
+    border: 1px solid #1678e8;
+    justify-content: center;
   }
   
   .card_cards_container_titulo {
-    font-size: 26px;
+    font-size: 31px;
   }
   
   .card_cards_container_texto {
-    font-size: 15px;
+    font-size: 21px;
   }
   
   .card_cards_container:hover {
     transform: scale(1.05); 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
   }
-  
