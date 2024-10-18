@@ -22,6 +22,7 @@
     border-radius: 32px;
     border: 1px solid #1678e8;
     justify-content: center;
+    transition: transform 0.3s ease;
   }
   
   .card_cards_container_titulo {
@@ -33,6 +34,7 @@
   }
   
   .card_cards_container:hover {
-    transform: scale(1.05); 
+    transform: scale(1.1); 
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); 
+    
   }

@@ -1,4 +1,4 @@
-.container {
+main {
     background: var(--gradiente);
 }
 
@@ -27,7 +27,7 @@
 }
 
 .primeiro_container h1 span {
-    color: #4e75ff;
+    color: rgb(52, 95, 250);
 }
 
 .primeiro_container_botao {
@@ -47,6 +47,7 @@
 .primeiro_container_botao:hover {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
     transform: scale(1.1);
+    background-color: rgb(52, 95, 250);;
 }
 
 .primeiro_container_imagem {

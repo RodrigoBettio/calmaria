@@ -24,39 +24,39 @@
 </head>
 
 <body>
+    <header class="cabecalho">
 
-    <div class="cabecalho">
-        <div class="cabecalho_nav">
+        <nav class="cabecalho_nav">
             <a>
                 <img class="cabecalho_nav_logo" src="./assets/logo.png">
             </a>
             <span class="cabecalho_nav_linha"></span>
-            <div class="cabecalho_nav_lista">
-                <div class="cabecalho_lista_item"><a>Espaço</a></div>
+            <ul class="cabecalho_nav_lista">
+                <li class="cabecalho_lista_item"><a>Espaço</a></li>
                 <div class="cabecalho_lista_item"><a href="#servicos">Serviços</a></div>
                 <div class="cabecalho_lista_item"><a>Contato</a></div>
-            </div>
-        </div>
-    </div>
+            </ul>
+        </nav>
+    </header>
 
-    <div class="container">
+    <main>
 
-        <div class="primeiro_container">
+        <section class="primeiro_container">
             <div class="primeiro_container_texto">
                 <h1>Boas-vindas ao seu refúgio de <span> paz e bem-estar</span></h1>
                 <button class="primeiro_container_botao">Quero relaxar</button>
             </div>
             <img class="primeiro_container_imagem" src="./assets/home-image.png">
-        </div>
+        </section>
 
-        <div class="secao_container">
+        <section class="secao_container">
             <div class="secao_container_conteudo">
                 <img class="secao_container_conteudo_img1" src="./assets/espaco-1.png">
                 <div class="secao_container_conteudo_textos">
                     <h1 class="secao_container_conteudo_textos_titulo">Tecnologia e natureza no seu relaxamento</h1>
                     <p class="secao_container_conteudo_textos_infos">Equipamentos de ponta, produtos certificados e
                         uma equipe qualificada te ajudam a se livrar do stress com equilíbrio e tranquilidade.</p>
-                    <object data="./assets/separador-direita.svg" type="image/svg+xml"></object>
+                    <img src="./assets/separador-direita.svg"></img>
                 </div>
             </div>
             <div class="secao_container_conteudo">
@@ -64,17 +64,17 @@
                     <h1 class="secao_container_conteudo_textos_titulo">Elevando o seu bem-estar</h1>
                     <p class="secao_container_conteudo_textos_infos">Cada visita é uma jornada. Não importa a sua
                         rotina, aqui você encontra seu paraíso particular.</p>
-                    <object data="./assets/separador-esquerda.svg" type="image/svg+xml"></object>
+                    <img src="./assets/separador-esquerda.svg"></img>
                 </div>
                 <div>
                     <img class="secao_container_conteudo_img2" src="./assets/espaco-2.png">
                     <img class="secao_container_conteudo_img2" src="./assets/espaco-3.png">
                 </div>
             </div>
-        </div>
+        </section>
 
 
-        <div id="servicos" class="cards_container">
+        <section id="servicos" class="cards_container">
             <div class="card_cards_container">
                 <img src="./assets/icon-massagem.png">
                 <h1 class="card_cards_container_titulo">Massagens</h1>
@@ -98,16 +98,17 @@
                 <p class="card_cards_container_texto">Pacotes que vão desde o "Dia revitalizante" com massagens e
                     tratamentos faciais, até o "Dia serenidade" com banhos terapêuticos e meditação.</p>
             </div>
-        </div>
+        </section>
+    </main>
 
-        <div class="footer">
-            <p>Acesse nossas redes:</p>
-            <div class="footer_nav">
-                <div><a class="footer_nav_whatsapp"><img src="./assets/Whatsapp.svg"></a></div>
-                <div><a class="footer_nav_instagram"><img src="./assets/Instragam.svg"></a></div>
-            </div>
-            <p>Desenvolvido por Rodrigo em aulas da Alura.</p>
+    <div class="footer">
+        <p>Acesse nossas redes:</p>
+        <div class="footer_nav">
+            <div><a class="footer_nav_whatsapp"><img src="./assets/Whatsapp.svg"></a></div>
+            <div><a class="footer_nav_instagram"><img src="./assets/Instragam.svg"></a></div>
         </div>
+        <p>Desenvolvido por Rodrigo em aulas da Alura.</p>
+    </div>
 </body>
 
 </html>
