@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/cabecalho.css">
-    <link rel="stylesheet" href="/css/primeiro_container.css">
-    <link rel="stylesheet" href="/css/secao_container.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <link rel="stylesheet" href="css/cards_container.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/primeiro_container.css">
+    <link rel="stylesheet" href="./css/secao_container.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="stylesheet" href="./css/cards_container.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -100,6 +102,52 @@
             </div>
         </section>
     </main>
+
+    <section class="desconto" id="desconto">
+        <img src="assets/mandala-esquerda.png" alt="Mandala lado esquerdo" />
+        <div class="desconto-form">
+            <h4>Inscreva-se para ganhar descontos!</h4>
+            <p>
+                Cadastre seu email para receber descontos e novidades sobre o espaço
+                e nossos serviços.
+            </p>
+            <div class="input-btn">
+                <input type="email" />
+                <button type="submit">Inscrever</button>
+            </div>
+        </div>
+        <img src="assets/mandala-direita.png" />
+    </section>
+
+    <section class="contato" id="contatos">
+        <div class="contatos-imgs">
+            <img src="assets/contato-img-2.png" />
+            <img src="assets/contato-img-3.png"/>
+        </div>
+        <div class="contatos-form">
+            <h4 class="titulo">Entre em contato</h4>
+            <p class="infos">Reserve seu horário, tire dúvidas ou proponha sugestões, nosso canal é aberto para você!</p>
+            <form class="inputs">
+                <div class="form-group">
+                    <label for="nomeContato">Nome</label>
+                    <input type="text" id="nomeContato" placeholder="Digite nome completo" />
+                </div>
+                <div class="form-group">
+                    <label for="emailContato">Email</label>
+                    <input type="email" id="emailContato" placeholder="Digite seu email" />
+                </div>
+                <div class="form-group">
+                    <label for="telefoneContato">Telefone</label>
+                    <input type="text" id="telefoneContato" placeholder="(xx) xxxxx-xxxx" />
+                </div>
+                <div class="form-group">
+                    <label for="mensagemContato">Mensagem</label>
+                    <textarea type="text" id="mensagemContato" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <button class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
 
     <div class="footer">
         <p>Acesse nossas redes:</p>

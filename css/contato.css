@@ -1,0 +1,83 @@
+
+.desconto, .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+
+  }
+
+  .contato {
+    background: var(--gradiente);
+  }
+  
+
+  
+  #desconto {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #contatos {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .desconto-form, .contatos-form {
+    background: var(--gradiente-card);
+    border: 1px solid #1678e8;
+    border-radius: 32px;
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    max-width: 400px;
+  }
+  
+  .desconto-form h4, .contatos-form h4 {
+    font-family: "Krona One", sans-serif;
+    font-size: 31px;
+  }
+  
+  .desconto-form p, .contatos-form p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 21px;
+    color: var(--lilas-escuro);
+  }
+  
+  .input-btn {
+    display: flex;
+    gap: 16px;
+  }
+  
+  input[type="email"], input[type="text"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  button {
+    background-color: #1678e8;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: "Krona One", sans-serif;
+    transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .contatos-imgs img {
+    width: 300px;
+    height: auto;
+    margin: 0 16px;
+  }
+  
